@@ -136,12 +136,21 @@ const insertQuestionCard = () => {
 
 const viewFinalCard = () => {
   totalScore = region1Score + region2Score + region3Score + region4Score + region4Score + region6Score;
+  if(totalScore>0){
   region1Percentage = Math.round((region1Score / totalScore) * 100);
   region2Percentage = Math.round((region2Score / totalScore) * 100);
   region3Percentage = Math.round((region3Score / totalScore) * 100);
   region4Percentage = Math.round((region4Score / totalScore) * 100);
   region5Percentage = Math.round((region5Score / totalScore) * 100);
   region6Percentage = Math.round((region6Score / totalScore) * 100);
+  } else {
+  region1Percentage = 0;
+  region2Percentage = 0;
+  region3Percentage = 0;
+  region4Percentage = 0;
+  region5Percentage = 0;
+  region6Percentage = 0;
+  }
   document.getElementById("per1").innerHTML = `${region1Percentage} %`;
   document.getElementById("per2").innerHTML = `${region2Percentage} %`;
   document.getElementById("per3").innerHTML = `${region3Percentage} %`;
