@@ -9,6 +9,7 @@ import { questions } from './questions';
 // 5 = qas
 // 6 = naj
 
+let userTest = [];
 // -------------------------------------------------
 const test1 = [
   questions[0],
@@ -115,7 +116,11 @@ const onAnswer = (event) => {
   console.log(region5Score);
   console.log(region6Score);
   $('.progress-bar').css('width', (((currentQuestion+1)/numberOfQuestions)*100)+'%').attr('aria-valuenow', ((currentQuestion/numberOfQuestions)*100));   
-
+  userTest[currentQuestion] = {
+    wrod: tests[currentTest][currentQuestion].question,
+    chosenAnswer: event.target.innerHTML,
+    actualAnswer: tests[currentTest][currentQuestion].label
+  }
   if (numberOfQuestions - 1 == currentQuestion) {
     viewFinalCard();
   } else {
@@ -165,7 +170,19 @@ const viewFinalCard = () => {
   console.log(region4Percentage);
   console.log(region5Percentage);
   console.log(region6Percentage);
+  console.log(userTest)
+}
 
+const showLogs = () => {
+  $("#result").addClass("hide");
+  $("#logs").removeClass("hide");
+  userTest.forEach(element => {
+    document.getElementById("table").innerHTML =document.getElementById("logs").innerHTML + `<tr>
+    <td">${element.wrod}</td>
+    <td">${element.actualAnswer}</td>
+    <td>${element.chosenAnswer}</td>
+  </tr>`
+  });
 }
 
 const onPlayAgain = () => {
@@ -196,6 +213,7 @@ $(document).ready(() => {
   document.querySelector(`#ans2`).addEventListener("click", onAnswer);
   document.querySelector(`#ans3`).addEventListener("click", onAnswer);
   document.querySelector(`#ans4`).addEventListener("click", onAnswer);
+  document.querySelector(`#showlogs`).addEventListener("click", showLogs);
 
 });
 

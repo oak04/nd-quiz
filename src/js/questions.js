@@ -9,6 +9,7 @@ export const questions = [
     {
       key: 1,
       question: "ییزي",
+      label: "يكفي",
       answers: [
         {
           "label": "يكفي",
@@ -41,6 +42,7 @@ export const questions = [
     {
       key: 2,
       question: "جغمة",
+      label: "رشفة",
       answers: [
         {
           "label": "حفرة عميقة",
@@ -73,6 +75,7 @@ export const questions = [
     {
       key: 3,
       question: "هاليودعه",
+      label: "من أجل ذلك",
       answers: [
         {
           "label": "من أجل ذلك",
@@ -105,6 +108,7 @@ export const questions = [
     {
       key: 4,
       question: "یتمقل",
+      label: "يمعن النظر",
       answers: [
         {
           "label": "يعبس في وجهك",
@@ -137,6 +141,7 @@ export const questions = [
     {
       key: 5,
       question: "شفايه",
+      label: "فضول",
       answers: [
         {
           "label": "فضول",
@@ -169,6 +174,7 @@ export const questions = [
     {
       key: 6,
       question: "جماھو",
+      label:  "أليس كذلك",
       answers: [
         {
           "label": "رفض شديد اللهجة",
@@ -201,6 +207,7 @@ export const questions = [
     {
       key: 7,
       question: "فرقزت",
+      label: "قمت مذعورا",
       answers: [
         {
           "label": "قمت مذعورا",
@@ -233,6 +240,7 @@ export const questions = [
     {
       key: 8,
       question: "مید من",
+      label: "من تقصد؟",
       answers: [
         {
           "label": "أين تذهب؟",
@@ -265,6 +273,7 @@ export const questions = [
     {
       key: 9,
       question: "منقعر",
+      "label": "منسدح على ظهره",
       answers: [
         {
           "label": "منسدح على ظهره",
@@ -297,6 +306,7 @@ export const questions = [
     {
       key: 10,
       question: "ارقه",
+      "label": "هذا هو",
       answers: [
         {
           "label": "صحيح بلا شك",
@@ -329,6 +339,7 @@ export const questions = [
     {
       key: 11,
       question: "ھب لي",
+      "label": "أعطني",
       answers: [
         {
           "label": "أعطني",
@@ -361,6 +372,7 @@ export const questions = [
     {
       key: 12,
       question: "حندرفیني",
+      "label": "نظر إلي بغضب",
       answers: [
         {
           "label": "اسم جني في عسير",
@@ -393,6 +405,7 @@ export const questions = [
     {
       key: 13,
       question: "خاشوقة",
+      "label": "ملعقة",
       answers: [
         {
           "label": "ثلاجة",
@@ -425,6 +438,7 @@ export const questions = [
     {
       key: 14,
       question: "عرموط",
+      "label": "كمثرى",
       answers: [
         {
           "label": "كمثرى",
@@ -457,6 +471,7 @@ export const questions = [
     {
       key: 15,
       question: "باصج",
+      "label": "قليل الملح",
       answers: [
         {
           "label": "عنيد",
@@ -489,6 +504,7 @@ export const questions = [
     {
       key: 16,
       question: "صمندیقة",
+      "label": "الشخص الغبي",
       answers: [
         {
           "label": "الشخص الغني",
@@ -521,6 +537,7 @@ export const questions = [
     {
       key: 17,
       question: "غرشة",
+      "label": "علبة",
       answers: [
         {
           "label": "علبة",
@@ -553,6 +570,7 @@ export const questions = [
     {
       key: 18,
       question: "غلج",
+      "label": "صعب",
       answers: [
         {
           "label": "قاسي",
@@ -585,6 +603,7 @@ export const questions = [
     {
       key: 19,
       question: "یمصع",
+      "label": "يجر",
       answers: [
         {
           "label": "يطلب",
@@ -617,6 +636,7 @@ export const questions = [
     {
       key: 20,
       question: "مخمج",
+      "label": "متعفن",
       answers: [
         {
           "label": "متعفن",
@@ -649,6 +669,7 @@ export const questions = [
     {
       key: 21,
       question: "بكرج",
+      "label": "برادة",
       answers: [
         {
           "label": "صحن",
@@ -681,6 +702,7 @@ export const questions = [
     {
       key: 22,
       question: "یتمردغ",
+      "label": "يتبهذل",
       answers: [
         {
           "label": "يلعب",
@@ -713,6 +735,7 @@ export const questions = [
     {
       key: 23,
       question: "ستیتة",
+      "label": "الأخت الكبرى",
       answers: [
         {
           "label": "الأخت الكبرى",
@@ -745,6 +768,7 @@ export const questions = [
     {
       key: 24,
       question: "الدقیسي",
+      "label": "غرفة تحت الدرج",
       answers: [
         {
           "label": "دورة المياه",
@@ -777,6 +801,7 @@ export const questions = [
     {
       key: 25,
       question: "تھقى",
+      "label": "تظن",
       answers: [
         {
           "label": "تظن",
@@ -809,6 +834,7 @@ export const questions = [
     {
       key: 26,
       question: "فاردز",
+      "label": "ارحل",
       answers: [
         {
           "label": "شارك",
@@ -841,6 +867,7 @@ export const questions = [
     {
       key: 27,
       question: "مصع",
+      "label": "يشد بقوة",
       answers: [
         {
           "label": "بالغ بالأمر",
@@ -873,6 +900,7 @@ export const questions = [
     {
       key: 28,
       question: "ھماه",
+      "label": "أليس كذلك؟",
       answers: [
         {
           "label": "أليس كذلك؟",
@@ -905,6 +933,7 @@ export const questions = [
     {
       key: 29,
       question: "احترين",
+      "label": "انتظريني",
       answers: [
         {
           "label": "انتظريني",
@@ -937,6 +966,7 @@ export const questions = [
     {
       key: 30,
       question: "أزمل",
+      "label": "أخشى عواقب أمر ما",
       answers: [
         {
           "label": "أخشى عواقب أمر ما",
@@ -969,6 +999,7 @@ export const questions = [
     {
       key: 31,
       question: "زاھب",
+      "label": "جاهز",
       answers: [
         {
           "label": "راكب",
@@ -1001,6 +1032,7 @@ export const questions = [
     {
       key: 32,
       question: "صایل",
+      "label": "غاضب",
       answers: [
         {
           "label": "ولهان لشدة الشوق",
@@ -1033,6 +1065,7 @@ export const questions = [
     {
       key: 33,
       question: "عذروب",
+      "label": "عيب",
       answers: [
         {
           "label": "عيب",
@@ -1065,6 +1098,7 @@ export const questions = [
     {
       key: 34,
       question: "ھجت به",
+      "label": "ضاعت علومه",
       answers: [
         {
           "label": "كتبت فيه أبياتًا من الشعر",
@@ -1097,6 +1131,7 @@ export const questions = [
     {
       key: 35,
       question: "ذروق",
+      "label": "جبان",
       answers: [
         {
           "label": "كريم",
@@ -1129,6 +1164,7 @@ export const questions = [
     {
       key: 36,
       question: "احلت",
+      "label": "ارم",
       answers: [
         {
           "label": "انهض",
