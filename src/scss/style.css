@@ -154,9 +154,8 @@ h1 {
 }
 
 .myprogress {
-  margin-top: 20px;
+  margin-top: -5px;
   direction: rtl;
-
 }
 
 .progress-bar {
