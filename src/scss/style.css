@@ -8,6 +8,10 @@ table {
   font-family: "DIN Next LT Arabic";
   text-align: center;
 }
+
+td {
+  font-size: 8px;
+}
 .wrapper {
   background-color: #f6f5eb !important;
   margin-top: 40px;
@@ -29,6 +33,7 @@ h1 {
   margin-top: -70px;
   z-index: 999 !important;
   display: block;
+  margin-bottom: 10px !important;
 }
 
 .form {
@@ -41,7 +46,15 @@ h1 {
   justify-content: space-between;
 }
 
-
+.resultLog {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  height: 900px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .answer {
  font-family: "DIN Next LT Arabic";
  margin-right: 20px !important;
@@ -104,8 +117,8 @@ h1 {
   font-size: 8px;
   height: 33px;
   color: #F2EFDC;
-  position: fixed;
   max-width: 700px !important;
+  margin-top: 20px !important;
 }
 
 .signature {

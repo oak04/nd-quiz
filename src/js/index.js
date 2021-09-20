@@ -177,9 +177,11 @@ const showLogs = () => {
   $("#result").addClass("hide");
   $("#logs").removeClass("hide");
   userTest.forEach(element => {
-    document.getElementById("table").innerHTML =document.getElementById("logs").innerHTML + `<tr>
-    <td">${element.wrod}</td>
-    <td">${element.actualAnswer}</td>
+    const color = element.actualAnswer==element.chosenAnswer ? ' class="table-success"': 'class="table-danger"'
+    document.getElementById("table").innerHTML =document.getElementById("table").innerHTML +
+    `<tr ${color}>
+    <td>${element.wrod}</td>
+    <td>${element.actualAnswer}</td>
     <td>${element.chosenAnswer}</td>
   </tr>`
   });
