@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "DIN Next LT Arabic";
+  font-weight: 300;
+  src:
+    url("./fonts/DINNextLTArabicLight.woff2") format("woff2"),
+    url("./fonts/DINNextLTArabicLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+  font-weight: 400;
+  src:
+    url("./fonts/DINNextLTArabicRegular.woff2") format("woff2"),
+    url("./fonts/DINNextLTArabicRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+  font-weight: 500;
+  src:
+    url("./fonts/DINNextLTArabicMedium.woff2") format("woff2"),
+    url("./fonts/DINNextLTArabicMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+  font-weight: 700;
+  src:
+    url("./fonts/DINNextLTArabicBold.woff2") format("woff2"),
+    url("./fonts/DINNextLTArabicBold.woff") format("woff");
+}
